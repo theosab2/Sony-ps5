@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #sectionT {
@@ -24,129 +24,140 @@
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
+#sectionT3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  width: 100%;
+  background-color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 #content {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .titre {
-    font-size: 6vh;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vh;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .textT {
-    font-size: 3.5vh;
-    width: 50vw;
-    margin-top: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.5vh;
+  width: 50vw;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .textH {
-    font-size: 3vh;
-    width: 50vw;
-    margin-top: 15px;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+  width: 50vw;
+  margin-top: 15px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .col {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .imgredu {
-    width: 100px;
-    height: 100px;
-    margin-left: -100px;
+  width: 100px;
+  height: 100px;
+  margin-left: -100px;
 }
 
 #header {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    height: 10vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 10vh;
+  margin-bottom: 50px;
 }
 
 #logo-sony {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  justify-content: flex-end;
 }
 
 #nav-bar {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 #nav-button {
-    flex: 0.25;
-    display: flex;
-    flex-direction: row;
-    border: none;
-    height: 100% auto;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    color: gray;
-    background-color: white;
+  flex: 0.25;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  height: 100% auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: gray;
+  background-color: white;
 }
 
 #nav-button:hover {
-    color: #0172ce;
+  color: #0172ce;
 }
 
 #nav-account {
-    flex: 2;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 #login-button {
-    border: none;
-    background-color: #404040;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
+  border: none;
+  background-color: #404040;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
 }
 
 #search-bar {
-    padding: 10px;
+  padding: 10px;
 }
 
 #nav-products {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 #button-product {
-    flex: 0.25;
-    position: fixeds;
-    display: flex;
-    flex-direction: row;
-    border: none;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: bold;
+  flex: 0.25;
+  position: fixeds;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 #button-product:hover {
-    color: #0172ce;
-    border-bottom: 4px solid #0172ce;
+  color: #0172ce;
+  border-bottom: 4px solid #0172ce;
 }
 
 #console-preview {
@@ -202,4 +213,24 @@
   color: #fff;
   font-size: 3vh;
   padding: 10px;
+  margin-bottom: 20px;
+}
+
+#titres3 {
+  font-size: 6vh;
+  letter-spacing: 3px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.videosize {
+  width: 35vw;
+  height: 40vh;
+  margin: 20px auto;
+}
+
+.videosize2 {
+  width: 35vw;
+  height: 40vh;
+  justify-content: center;
 }
