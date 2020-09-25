@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #sectionT {
@@ -26,128 +26,134 @@
 }
 
 #content {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .titre {
-  font-size: 6vh;
-  font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .textT {
-  font-size: 3.5vh;
-  width: 50vw;
-  margin-top: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5vh;
+    width: 50vw;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .textH {
-  font-size: 3vh;
-  width: 50vw;
-  margin-top: 15px;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    width: 50vw;
+    margin-top: 15px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .col {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .imgredu {
-  width: 100px;
-  height: 100px;
-  margin-left: -100px;
+    width: 100px;
+    height: 100px;
+    margin-left: -100px;
 }
 
 #header {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  height: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 10vh;
 }
 
 #logo-sony {
-  display: flex;
-  flex-direction: row;
-  padding: 7px;
-  font-size: 20px;
-  background-color: black;
-  color: white;
-  justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
 }
 
 #nav-bar {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 #nav-button {
-  flex: 1;
-  display: flex;
-  border: none;
-  height: 100% auto;
-  align-items: center;
-  justify-content: center;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-  color: gray;
-  background-color: white;
-  transition-duration: 0.4s;
+    flex: 0.25;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    height: 100% auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    background-color: white;
 }
 
 #nav-button:hover {
-  background-color: #0172ce;
-  color: white;
+    color: #0172ce;
 }
 
 #nav-account {
-  flex: 2;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 #login-button {
-  border: none;
-  background-color: #404040;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px;
+    border: none;
+    background-color: #404040;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 #search-bar {
-  padding: 10px;
+    padding: 10px;
 }
 
 #nav-products {
-  flex: 2;
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 #button-product {
-  border: none;
-  background-color: white;
-  color: black;
+    flex: 0.25;
+    position: fixeds;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 #button-product:hover {
-  border-bottom: 4px solid #0172ce;
+    color: #0172ce;
+    border-bottom: 4px solid #0172ce;
 }
 
 #console-preview {
   justify-self: center;
   align-self: center;
   align-content: center;
-  height: 250vh;
+  height: 100vh;
   width: 100%;
 }
 
