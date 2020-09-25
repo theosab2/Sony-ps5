@@ -1,4 +1,74 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: white;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 10vh;
+}
+
+#sony-logo {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    justify-content: flex-end;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-button {
+    flex: 1;
+    display: flex;
+    border: none;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    transition-duration: 0.4s;
+}
+
+#nav-button:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+#nav-account {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#login-button {
+    border: none;
+    background-color: #404040;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#searchbar {
+    padding: 10px;
+}
+
+#console {
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    height: 250vh;
+    width: 100%;
 }
